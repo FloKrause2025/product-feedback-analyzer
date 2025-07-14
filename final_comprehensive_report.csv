@@ -1,0 +1,427 @@
+﻿source,comment,category,user_problem
+Reddit,love how you have tied everything together with the workflow. One thing I want to ask how clean is the scraped content when you run it through the LLM? I’ve seen that part cause issues sometimes.,Struggle / Confusion,"Concerns about the cleanliness of the scraped content when processed through the LLM, indicating potential issues."
+Reddit,"you mention using [rss.app](http://rss.app) for Twitter, Reddit etc. Have you found a way to get a similar feed for LinkedIn? I find that a great source for content but haven't found a way to get LinkedIn content into n8n",Feature Request,Request for a way to obtain a content feed from LinkedIn to use within n8n.
+Reddit,I would love is I could have that as an app with popups in my phone that I can allow to push news to me at selected times each day or when I manually reload it. Extra cool if I then could select topics that I like,Feature Request,Desires a mobile app version of the workflow with push notifications and customizable topic selections.
+Reddit,Yeah that's what I was going to check out. The workflow and video are actually legit btw. My expectations were low but the workflow and documentation were on point.,Positive Feedback,The workflow and documentation are well done and exceeded the user's expectations.
+Reddit,"I see. 
+
+What about a guide/instructional on creating the actual RSS feeds? It seems quite difficult, actually, compared to programming AI to search and scrub the web.   
+  
+Where does one begin to find relevant feeds? Upon purchasing [RSS.app](http://RSS.app), now what?
+
+I tested it, but it's not so straight forward. There's a lot of garbage in the generated feeds.",Feature Request,"Request for a guide on creating RSS feeds, as the current process seems difficult and generates garbage content."
+Reddit,"I propose an automation that detect new post and flag it as BS 😂 I will contribute the prompt engineering part. Someone just have to pay for the API 😂
+
+Joke aside, it’s a great time for n8n team to demonstrate their automation use case here. Imagine BS post detectors automation made by n8n",Feature Request,Request for an automation feature that detects and flags misleading posts on the subreddit.
+Reddit,"After Up/Down, there should be a 'I think this is spam' button : )",Feature Request,Request for a 'I think this is spam' button for posts on the subreddit.
+Reddit,does n8n provide automation for posting to Instagram as well?,Feature Request,Inquiry about whether n8n provides automation for posting to Instagram.
+Reddit,"This is a really good list. And I completely agree with all points. Can I get it in poster format 😅♥️?
+
+If I should add an 11th point, it should be learn a bit of basic javascript:
+It will help immensely on understanding and debugging {{ }}-expressions. Specially JSON.stringify() helps manage that output from LLMs that may have special characters and linebreaks.
+Many simple things can be handled via expressions without adding a code node. Code nodes are awesome, but they do launch a  javascript instance which do eat up some memory. (Also recommended in official docs about memory problems).",Feature Request,Request for a poster format of the list; suggestion to include the importance of learning basic JavaScript for better understanding and debugging expressions.
+Reddit,"This is super helpful. Thanks for sharing!  
+Totally agree on starting simple. I also spent way too much time on big workflows when I should have just built something quick to learn.  
+And yes, the HTTP Request node is a game changer. Once I figured that out, everything felt way more flexible.  
+Really appreciate these tips!",Positive Feedback,The HTTP Request node is a game changer and adds flexibility to workflows.
+Reddit,"N8n is better than make? It's just that if I want to do something more human, something cool can't be done, but the basics are, I made an event scenario to schedule, endorse and cancel, the",Struggle / Confusion,The user finds that n8n has limitations for more complex or 'human' scenarios but can handle basic tasks.
+Reddit,"I've been at this for about 3-4 months and n8n is one of the most frustrating experiences around. I can build an app in Python and Flask incorporating LLMs in a few hours. A simple 5-node workflow involving OPENAI or Anthropic is a nightmare just getting the damn configuration to accept a prompt.  
+
+There has never been one YouTube workflow download that works out of the box. It's always like pulling teeth to get around a troublesome node. 
+
+I'm sure that some brainiac will come up with a paid platform that instantly regulates all that one day so that your prompt actually generates a consistent working system on the first try.  We can only hope.",Negative Feedback,"n8n is frustrating to use, particularly with regard to configuring workflows and nodes. The lack of out-of-the-box functionality for downloadable workflows adds to the difficulty."
+Reddit,"I actually don’t disagree! There is a ton of troubleshooting involved and inconsistencies, and handoff to clients can be a huge pain",Struggle / Confusion,"Experiencing troubleshooting issues, inconsistencies, and difficulties in handing off automation to clients."
+Reddit,"I still use Make.com for some things! But I’m shifting more of my core builds to n8n because:
+
+1. Self-hosting gives me more control over data and performance
+2. Version control and modularity feel better for scaling more complex workflows
+3. I’ve found n8n easier to debug and customize once you get used to its logic
+
+Make.com is still fantastic for visual speed and integrations, but n8n feels more like building a system not a flow.",Positive Feedback,"User prefers n8n for self-hosting control, better version control, modularity, and ease of debugging and customization."
+Reddit,"Any advice for the ""**HTTP Request node first**"" ?  Pretend I'm 10, no 3",Struggle / Confusion,User is seeking advice on how to use the HTTP Request node in n8n and is struggling to understand it.
+Reddit,"I’m interested in a workflow but I’m scared to take the plunge mainly bc of maintenance and upkeep where it’s just gonna be crazy expensive. I usually end up doing it myself, become overwhelmed bc I can barely print “hello world” and just give up .",Struggle / Confusion,"Concern about the maintenance and upkeep costs of workflows in n8n, leading to feelings of being overwhelmed and giving up."
+Reddit,"Now make n8n flow that detects when new flows are pushed, downloads and automatically pushes them to github :)",Feature Request,"Request for a feature that detects new workflows, downloads them, and automatically pushes them to GitHub."
+Reddit,"There is literally a sitemap link with the 2k+ workflows on n8n website itself. There is no point collecting workflows like it's gonna give you an edge or something.
+
+
+I downloaded 300 workflow last week only to realize most of them are complete shit likely made from what you see on youtube aka flashy useless stuff that no professional will use in production. 
+
+
+Here: https://n8n.io/sitemap-workflows.xml",Negative Feedback,Many available workflows are of low quality and not suitable for professional use.
+Reddit,"Most of these are crap, what we need is to vet the quality and then reduce the total number. If someone does that, everyone would be interested",Negative Feedback,"The quality of the available n8n workflows is low, and there is a need for vetting to reduce the total number."
+Reddit,Hey can we have some workflow which can automate Reddit content posting and commenting? Is it a good idea or would it be banned soon?,Feature Request,Request for a workflow that can automate Reddit content posting and commenting.
+Reddit,"Nice work and thx for sharing. Had a look. Would be great if the script could fetch some, if not all, the text description/tutorial that comes along with the workflow.",Feature Request,It would be beneficial if the script could fetch text descriptions/tutorials that come with the workflows.
+Reddit,Amazing. Probably create a directory for each workflow with proper naming (title of the workflow) as the file name is hard to read. And for each directory add a readme file explaining what it does - this can also get from the site as it is already there.,Feature Request,Suggesting the addition of a directory structure for workflows with proper naming and readme files for better organization and clarity.
+Reddit,"Can you use AI to read the workflow and smartly rename the file to summarize that it does. That way, it is easy for people to search and use what they want..",Feature Request,A feature to use AI to read workflows and smartly rename files to summarize their functionality for easier searching.
+Reddit,Maybe you can create a searchable directory for these n8n workflows. it will be more easy for lazy people like us.,Feature Request,Request for a searchable directory for n8n workflows to improve ease of use.
+Reddit,"A lot of these are numbered and non-descriptive. This is so sick but I wonder if I or someone else can make an automation to describe each of these flows, like make titles for them",Feature Request,"Descriptive titles for the downloaded workflows are needed, and the user suggests creating automation for this purpose."
+Reddit,I’m new to n8n and would like to know if someone could help me execute a workflow,Struggle / Confusion,The user is new to n8n and needs help executing a workflow.
+Reddit,Noob here. Why would I use this instead of the n8n website?,Struggle / Confusion,Uncertainty about why to use the local repository of workflows instead of the n8n website.
+Reddit,Build the workflow to analyze and categorize and repush,Feature Request,"Request for a feature to build a workflow that can analyze, categorize, and repush workflows."
+Reddit,I was hoping for a contents page to start of with 🤣,Feature Request,There is a need for a contents page to help users navigate the workflows.
+Reddit,I tried to use render to deploy a laravel from github using dockerfile but didn't work with any ways. using gpt to help yet,Struggle / Confusion,Having difficulties deploying a Laravel app from GitHub using Dockerfile.
+Reddit,"How does it work? I see many labels, well organized but can't click/open anyone of them..  
+Do I need to register somewhere?",Struggle / Confusion,"Uncertainty about how to access and use the workflows, specifically regarding labels that cannot be clicked or opened."
+Reddit,How do you create a node to trigger Deep Research? I was under the impression that couldn't be done - but happy to be proven otherwise.,Struggle / Confusion,Uncertainty about how to create a node to trigger Deep Research in n8n.
+Reddit,"Is it just me, or are there no human checkpoints in this process?
+
+I actually like n8n a lot. But from a marketing perspective, pushing out content at scale without real personalization is a quick way to lose trust.
+
+I say this as someone with over 18 years in product marketing, currently working at an AI company in a director role. This pattern is familiar. When content is not tailored to the audience, engagement drops. AI can support content creation, but it still needs to reflect the brand’s voice. That usually requires human review, for now. 
+
+There is already research showing that generic AI content performs poorly. I will try to find the piece I read last week and share it here.
+
+Also, I want to be clear. I respect the work you put into this. This is not a negative comment. I just think it is an important conversation to have.",Negative Feedback,Content generated without human checkpoints risks losing trust and performing poorly in engagement.
+Reddit,"Thanks for explaining the workflow, but am I missing the part about content being SEO-optimized? Is this a connection to a SEO tool or are you just asking Deep Research to focus on keywords?",Struggle / Confusion,Uncertainty about how the workflow incorporates SEO optimization and whether it connects to an SEO tool or relies on keywords from Deep Research.
+Reddit,"May need to do a fully separate video for this, but in short we actually wrote code and spun up an API endpoint to handle this process. 
+
+The n8n workflow makes an HTTP Post request to this endpoint on our backend, and then our backend takes that data and and uses the Sanity SDK (javascript library) to actually publish the content.
+
+Hopefully there's a sanity n8n node that exists in the future, so we can rip this part out.",Feature Request,The user hopes for a Sanity n8n node to simplify their workflow by allowing them to remove the backend integration currently needed.
+Reddit,"I totally agree. The text part is relatively fine, but the Dall E images are crap",Negative Feedback,The Dall E images generated are of poor quality.
+Reddit,"Love sanity, but actually publishing the content was a bit of a pain here and required us to write some custom code to publish the content to it",Negative Feedback,Publishing content was difficult and required writing custom code to do so.
+Reddit,I need some AI that will pick relevant pictures from Stock Photos. I’d pay for that service.,Feature Request,Request for an AI feature that can pick relevant pictures from Stock Photos.
+Reddit,Yeah - it is definitely more of a developer-centric platform compared to others. WordPress / Webflow would be much easier to get up and running with IMO.,Negative Feedback,"n8n is perceived as more developer-centric compared to other platforms like WordPress and Webflow, which are seen as easier to use."
+Reddit,"I wasn’t able to find a great way to do that. Have you found any endpoints that would let you?
+
+That would simplify greatly",Struggle / Confusion,"Unable to find suitable endpoints in n8n for leveraging Deep Research outputs, which is needed to simplify their workflow."
+Reddit,"Let’s see! My expectation was that I just clean data, set fields node in n8n and then https api to sanity into the known fields 
+
+But I have not really read the docs yet, maybe I am totally off",Struggle / Confusion,"Uncertainty about the correct way to use n8n for cleaning data and setting up fields with the API, potentially due to not having read the documentation."
+Reddit,Retweet. I just saw a template where I could cut the first 20 nodes down to 3. Didn't bother looking at the next 20.,Negative Feedback,Experiencing inefficiency with overly complex templates and workflows that could be streamlined.
+Reddit,"That looks absolutely miserable to work with. I have folders with workflows that all have 3-15 nodes depending on the function, they call each other when needed. If there’s an error in one workflow I can work with that one workflow if needed.
+
+https://preview.redd.it/r1amvskjes7f1.jpeg?width=3840&format=pjpg&auto=webp&s=c516b6e84c3eebc5e1ef49eb9fa81e57357fffc5",Negative Feedback,Experiencing data drops and super long processing times while working on workflows.
+Reddit,"I’d honestly prefer to write code before building a monster like this.
+
+Honest question here, how do you organize your multiple workflows across different projects? Let’s say you have a 3 projects with 5 workflows each? Do you rely on naming conventions?
+
+I started trying to split multiple “workflows” within the same canvas but n8n is not built for that so i’m facing limitations.",Struggle / Confusion,Facing limitations in organizing multiple workflows across different projects within n8n.
+Reddit,"When I see these giant canvases, I can’t help but think how shitty the platform is that most of this can’t be consolidated (more code and fewer nodes) and how frustrated i would be trying to build any of it knowing I could complete something similar in less than 50 lines of Python",Negative Feedback,The platform's inability to consolidate workflows leads to frustration and inefficiency compared to simpler coding solutions like Python.
+Reddit,"The fact that you can run a workflow as a chainable tool, it's awesome and will make people think more modular, we just need to feel like connecting higher level blocks. Think about building a full Lego piece, from piece to segment from segments to the full piece, the latter I don't see very well n8n here.
+
+Btw last workflow tool I mastered was Apache NiFi (with agents connected to master) and I feel in the future with n8n, I don't imagine what they're planning about chaining and wiring more for AI, you see things like langgraph for multi agents and supervisor and you can start connecting faster some dots... I hope they are smart and move in a good direction.
+
+So far it is good, I have a swagger doc and want to make a custom connector but I don't want to code it, I wonder how good these models are given a swagger and given a good connector as an example to replicate it... I guess I have to test this or has anyone tried?
+
+So follow the message op is trying to convey, think modular. Document the whole thing to keep a way to understand the full picture, not only you, your agent as well ;)",Positive Feedback,User appreciates the modular approach of n8n and hopes for enhancements in connecting higher level blocks. They express a desire for better documentation and a user-friendly way to create custom connectors without extensive coding.
+Reddit,"I'm a noodle still. I am stuck trying to get my vision out of my head and in operation. I get close then it fails. 
+
+How many API's are you guys investing in. I was looking at Apollo for scrapping. Getting started I want to reduce excessive spending as much as possible until concept is proven and ready for production. I appreciate post like these as it confirms my thoughts. 
+
+I tried to use Cursor for assistance and it does create a functional workflow but it comes with a lot of nodes. It never uses the AI tools node. It loves to use a multitude of nodes. 
+
+It started to make sense. Using wait nodes and other debugging nodes to ensure it works. 
+
+I like it simple and not full of redundant nodes.",Struggle / Confusion,The user is struggling to implement their vision into n8n workflows and finds it confusing due to excessive nodes and complexity.
+Reddit,"I made this mistake as well. I created a workflow to generate content, make it ready for an import into Magento2. And added a new functionality, added new features and I just startedt to ask myself, what if it breaks. Or what if I am sick or gone and somebody else has to work with it.
+
+And than I realized, the features should all be separate flows. If I want one tool to combine them, I could use a form and trigger other workflows. But those overcomplicated workflows just cause issues.
+
+I think there are some IT principles that everyone should keep in mind, especially single responsibility.",Negative Feedback,"Overcomplicated workflows cause issues, leading to concerns about data drops and processing times."
+Reddit,People saw that some people were selling these for lots of money and other people started jumping on the bandwagon. In all honesty…to buy an n8n workflow is the dumbest thing ever. Even if you aren’t a builder. Half of the workflows that people try to push right now will be out of date with another LLM update. The next half after the next update and so on and so on. The LLMs are coming out with more connections and more ways to integrate that…I don’t want to say that n8n workflows are useless because they absolutely are not. But….they are definitely are overhyped.,Negative Feedback,"n8n workflows are perceived as overhyped and potentially outdated due to frequent updates in LLMs, leading to concerns about their value."
+Reddit,"I agree , btw these workflows became famous after AI area even if they are not AI related. In the end AI just made solutions like n8n becoming useful but people don't understand what you need is :  
+\- simple workflow  
+\- AI agent at the right place   
+\- an APP !!! ie a frontend and not just only a workflow",Struggle / Confusion,"Users are confused about the need for a simple workflow, an AI agent at the right place, and the necessity of having a frontend app instead of just a workflow."
+Reddit,"This irks me so much.
+
+Where is the error handling? What if one node fails? What if it times out?
+
+This sells like hotcakes on those LinkedIn and twitter posts. 
+
+<Comment OMGn8n to get this. Must be following>
+
+Then the ones who get it in DMs put it up on their profiles and then the recursion loop begins
+
+Actual customers are purchasing 5 step processes which do actual shit done rather than being a spider web for sale",Struggle / Confusion,"Lack of error handling in n8n when a node fails or times out, leading to confusion and frustration."
+Reddit,You call that a production workflow without error handling? I doubt a little...,Negative Feedback,Experiencing data drops while working on a flow and confusion regarding error handling in workflows.
+Reddit,What’s with the manual trigger node underneath that’s not connected to anything? Is that so you can just disconnect the webhook and trigger it manually really quickly?,Struggle / Confusion,Confusion about the purpose of the manual trigger node underneath that’s not connected to anything.
+Reddit,"The problem is when people try to use n8n instead of writing a proper application, except that you loose a lot by doing that:  
+- no version control.  
+- no real way to optimize if needed.  
+- harder debug.  
+
+n8n is a great tool to automate side processes and boring stuff but I am a lot dubious when anyone try to do real work with it, it might work for a time, sure, but it will come to bite you later if you want to grow.",Negative Feedback,"Concerns about using n8n for serious applications due to lack of version control, optimization difficulties, and harder debugging."
+Reddit,Yeh simplicity and maintainability trumps cool shit! Without having to navigate to 10 different sub workflows to identify what is going wrong where - it is most times better to keep in one sheet - but don’t start with sub workflows - simplicity does not always look like 10 nodes in a workflow,Struggle / Confusion,"Experiencing issues with simplicity and maintainability in workflows, leading to confusion and complexity."
+Reddit,"Sheets scale fine for most n8n use cases if you're using them correctly. I like baserow as I can self host it and the nodes are very easy to use.
+
+
+If you're already a sql god then of course sheets is irrelevant. Most people gravitating to n8n would not be that level though which is why sheets is a good option for them!
+
+
+Even myself I tend to write Python scripts for most automation, I only use n8n because it's genuinely faster to put together and explain to my non-technical manager but for anything more complex than basic stuff I wouldn't use n8n.",Negative Feedback,"Experiences data drops while working on a flow, long processing times, and confusion when dealing with more complex automations."
+Reddit,Even though it is simple it‘s cool as it is utilized exactly as an assistant. It automates annoying work and gives you valuable time just like having a dishwasher.,Positive Feedback,"The n8n product automates annoying work effectively, providing valuable time to users."
+Reddit,"Hey this is great, but instead of email link her google Calendar, fun idea",Feature Request,Suggesting to link Google Calendar instead of using email.
+Reddit,"Great work man. I’ve got a newb question if anyone might know. I’m using Gemini to build some nodes. Most of them don’t work and Gemini is confident I am using outdated n8n. I’m on the free trial. The version says 1.99.1. Gemini doesn’t recognize that version. But I just signed up, why wouldn’t I be on the latest version?",Struggle / Confusion,"The user is experiencing issues with Gemini not recognizing their version of n8n (1.99.1) and is confused about why they aren't using the latest version, especially since they just signed up."
+Reddit,Is there a UI to manage all those workflows from a single interface ? I have a few already and it's getting hard to manage them already .,Feature Request,"The user is looking for a UI to manage all workflows from a single interface, as they find it hard to manage multiple workflows."
+Reddit,"Am I the only one who finds that pre-built workflows are pretty much useless for me? I start with a problem my clients have, the build a solution. I don’t start with the solutions and work my way to the problem.",Negative Feedback,Pre-built workflows are perceived as useless since they don't align with the user's approach of starting from a problem to create a solution.
+Reddit,Totally tire searched on their official data base completely useless,Negative Feedback,"The official database of n8n templates is perceived as completely useless, leading to frustration."
+Reddit,Would you be allowed something where you attach a link and have a download with no email requried but it is optional?,Feature Request,"A feature where users can attach a link for downloads without requiring email, making it optional."
+Reddit,"https://preview.redd.it/blfcft0yjmaf1.png?width=1557&format=png&auto=webp&s=3416d0bd8f73da1e0fbb49b20843db5eac74bf0d
+
+
+
+我不知道n8n 的 工作流之间是如何调用的 这个可以给我说明下吗？ 我正在做一个类似的 工作流，就是通过 echart生成一些报告，但是在同一个工作流 后边不知道如何接入和传输的",Struggle / Confusion,User is confused about how workflows in n8n can call each other and how to connect and transfer data within the same workflow.
+Reddit,Any suggestions for how to connect with Linkedin data?,Feature Request,Seeking suggestions for connecting n8n with LinkedIn data.
+Reddit,Awesome. Thanks for sharing. Is there any tool to troubleshoot API connectivity issues? It keeps breaking.,Feature Request,There is a need for a tool to troubleshoot API connectivity issues in n8n.
+Reddit,"Great list but a little shocked how expensive a workflow system can become if you rely on multiple of these tools.  
+
+Clearly some are selling shovels in the gold rush.",Negative Feedback,Concern about the high costs associated with using multiple tools integrated with n8n.
+Reddit,Any good opensource database to change from supabase and works well on n8n (or have postgres)? 🥲🥲🥲,Feature Request,Looking for a good open-source database that works well with n8n as an alternative to Supabase and has PostgreSQL support.
+Reddit,You forgot ScrapeNinja web scraping node! So much better for real scraping https://scrapeninja.net/docs/n8n/,Feature Request,The comment suggests adding ScrapeNinja as a web scraping node in n8n.
+Reddit,Saved! adding this one [n8nviewer.com](https://n8nviewer.com) would be great also,Feature Request,Suggestion to add support or mention of n8nviewer.com as a useful tool that integrates with n8n.
+Reddit,"I don’t know how technical you are, but you know you can just host your own Postgres, right? Also, n8n has a native Postgres node, so you can query or write directly without going through an API layer.
+
+Other than that, Baserow and PocketBase work well with n8n - just added them to the list!",Positive Feedback,"User is sharing knowledge about additional tools that work well with n8n, but is also suggesting additional capabilities of n8n regarding Postgres."
+Reddit,Can you tell me when to use a loop? I cannot understand even when I Googled or asked AI. And why did you use the structured output parser 2?,Struggle / Confusion,Confusion about when to use a loop and understanding the use of the structured output parser 2 in n8n.
+Reddit,Is it possible to use this with Gemini instead for lower inference cost?,Feature Request,User is asking if n8n can be used with Gemini for lower inference costs.
+Reddit,"Where are you pulling your RSS feeds from? I've tried doing this through Google alerts but can't get a work around besides multiple nodes...
+Noob here",Struggle / Confusion,The user is struggling to set up RSS feeds in n8n and is looking for a workaround for their implementation.
+Reddit,Any system for data feedback and self learning?,Feature Request,Request for a system for data feedback and self-learning capabilities within n8n.
+Reddit,"Thank you!! Yes they’re 2 separate systems for Make and N8N so I charge separately. I’ve really been loving N8N but it’s slightly more advanced, but also more capable I think",Positive Feedback,"User enjoys n8n and finds it more capable, but considers it slightly more advanced than other systems."
+Reddit,Hmmm this is really interesting! Do you think it would have the same functionality? Would the Airtable database be embedded? I wonder if there’s something more useful than scraping RSS feeds for sources. Maybe input a topic and the model researches?,Feature Request,Inquiry about the functionality of Airtable database integration and exploring alternatives to RSS feeds for content sourcing.
+Reddit,"Free until you reach the max available, then it is minimum 20$.
+I reached it too soon with a client, it was annoying to migrate to a cheaper solution 😅",Negative Feedback,"Reaching the usage limit too quickly with a client was annoying, leading to a need to migrate to a cheaper solution."
+Reddit,What’s wrong with the official n8n template site?,Struggle / Confusion,There is a concern or confusion regarding the official n8n template site.
+Reddit,Can it have a filter for online and self-hosted?,Feature Request,Request for a filter to differentiate between online and self-hosted workflows.
+Reddit,Is anyone else having issues accessing the site and workflows?,Bug Report,Issues accessing the site and workflows.
+Reddit,"Cool, now make it accessing via an MCP 😁",Feature Request,Request for n8n to support access via an MCP (Managed Cloud Provider).
+Reddit,"Good collection. Add filters and sort options like Most Downloaded, Most Popular, Latest, etc.",Feature Request,"Request for filters and sort options like Most Downloaded, Most Popular, and Latest for the workflow collection."
+Reddit,It seems to have grabbed even the paid workflows from the official templates gallery and is offering them for free..,Bug Report,The platform is allegedly offering paid workflows from the official templates gallery for free.
+Reddit,"n8narena maintainer here :)  
+On n8narena I don't show any actual workflows. So, all the download features are definitely NOT coming from me. In another thread I even suggested to remove this feature on your website entirely, because of 2 reasons:
+
+\* when you allow downloading workflows from your website, you actually steal affiliate clicks from the original creators  
+\* downloading templates directly hurts the original metrics. Imagine, if everyone will start downloading templates from \*your\* website, how would anyone know what's trending? u/n8n has implemented some metrics on their website, so I'd strongly suggest not to interfere with them.
+
+Browsing feature and fine-grained selection options on your website are definitely nice!",Feature Request,Suggestion to remove the feature of downloading workflows from the website to protect original creators' affiliate clicks and maintain accurate metrics.
+Reddit,Lmao 97% have no error handling = 97% are worthless in a production environment,Negative Feedback,"A high percentage of n8n workflows lack error handling, making them unsuitable for production use."
+Reddit,"So basically what you would expect from code that was written by people that are not engineers. I think the questions arises, how can we update n8n so that it checks for these things and doesn't let people deliver this type of code? If you were able to create code that reviewed 2k+ workflows you could use the same to review individual workflows and tell people what they need to fix before they deploy. One better, give it to the buyers and let them make sure what they are buying is not garbage in disguise :)",Feature Request,Request for a feature that checks workflows for quality issues before deployment and provides feedback to users.
+Reddit,"This was great I’m only a few weeks into n8n and working on a workflow.
+
+Two questions if I may;
+1. My jsons are getting to big and I’m having to have Claude break them into sections now, is there some sort of file to add to my Claude project to assist in these not breaking? 
+2. Every time I have it set up redundancy and error handling it breaks my workflow.
+
+Am I just at the learning stage and need to continue with it or am I missing a step? 
+
+For reference I have several references in my project including things like my advanced (maybe) rubric and plans on the project including things by the current workflow.",Struggle / Confusion,Having issues with large JSON files breaking and with redundancy and error handling causing workflows to break.
+Reddit,Would it be possible to publish the js that extracted you the information and made the analysis + the report? Would be great,Feature Request,Request to publish the JavaScript used for extracting information and generating the analysis and report.
+Reddit,"I work at n8n and just want to call out that the first “insight” is already kind of BS (about not having error handling):
+- Any workflow in n8n can trigger an error workflow. This is set in the workflow’s settings.
+- You do need an error trigger in that error workflow, but I know many many users that have 1x fallback error workflow for their entire instance (and each workflow is set to use that flow as error flow). 
+- A template when being imported naturally doesn’t import that workflow setting, since it needs to specify a workflow that already exists on your instance.
+
+I did not read the other insights, but saw many comments here about “oh no they’re no prod ready” and it’s due to false AI assumptions from Claude.
+
+As we’re growing, we’re seeing lots of people jump on the bandwagon and share insights. Perhaps there’s some valuable things in OP thread, but when very first thing is totally wrong… it’s hard to trust. 
+
+P.S. I know I’m on a burner acct. don’t Reddit much but was frustrating seeing people replying on that misnomer 🙏 
+
+Happy flowgramming y’all 🫡 ",Negative Feedback,"The claim about n8n not having error handling is incorrect; it can trigger an error workflow, which is not adequately represented in the analysis."
+Reddit,"Yeah I’m in the middle of working on a project which is the “big idea” but on the way to figuring it out I keep reiterating on how it’s being done, so I’m kinda learning by going but I have not a lot of time 2-3hours a night tops and I have zero coding experience.  
+
+But I’m already starting to understand the formatting of json files and context behind the levers in n8n which if I’m being honest I didn’t think I’d figure out.  
+
+Thanks so much for the detailed reply, it’s a really great program and community.",Positive Feedback,User is learning to understand n8n despite having zero coding experience and appreciates the program and community.
+Reddit,"At least someone understands this stuff. If I had 498$ lying around for a bloody course wouldn’t I have chosen something like Make or Zapier. The whole point of steering towards N8N was freedom and flexibility. 
+
+Then comes the community with paywalled knowledge. Yes if it’s something of extremely high quality then why not but every other wanna be guy is doing that or making that kind of effort? Makes it depressing.",Negative Feedback,There's frustration about the community's paywalled knowledge and the perception that it contradicts the freedom and flexibility that n8n is supposed to offer.
+Reddit,congrats! You mention Instagram and Messenger. Could you add something else like Whataspp messages?,Feature Request,Request to add WhatsApp message integration to the n8n chatbot system.
+Reddit,"I'm trying to add a remind me in a week link but I don't get it working. 
+Can someone help me with this? Tnx",Struggle / Confusion,The user is trying to add a 'remind me in a week' link in their workflow but is having trouble getting it to work.
+Reddit,Very nice. Prompts would be interesting.,Feature Request,The user is interested in having prompts available in n8n.
+Reddit,"Hey mate great job 👏🏻
+
+Can you give a detailed walkthrough of the MCP Mem0 node?
+
+And how do u integrate it with n8n?",Struggle / Confusion,User is seeking a detailed walkthrough of the MCP Mem0 node and its integration with n8n.
+Reddit,"It would be super great if you could create a YouTube video explaining this step by step
+
+So that we all can get benefitted",Feature Request,Request for a YouTube video tutorial to explain building a chatbot system with n8n step by step.
+Reddit,"Wow I’ve been working on something similar myself that takes messages from messenger and IG and puts it thru my custom ChatGPT Ai assistant to respond to messages.  Yours is way more thorough and thought out.
+
+With the IG webhook I am noticing that my workflow runs twice when messages come in due send/read status.  Is that a problem on yours?",Bug Report,The IG webhook causes the workflow to run twice when messages come in due to send/read status.
+Reddit,"How did connection with message Instagram? Bro I have been watching videos since yesterday and I don’t van connection. Pdd: it’s amazing your n8n model, i dream with that. Thanks u",Struggle / Confusion,The user is struggling to connect n8n with Instagram messages and is finding it difficult despite watching tutorial videos.
+Reddit,"Hey, I am making chatbot and I am currently stuck at gathering booking infos. It is working great if my booking workflow is getting every info one by one. How do you handle this if one of your guests say 'Hey three of us wants to come on 5. May' and lets say one of them is a child and they did not mentioned it at the beginning.",Struggle / Confusion,"The user is struggling with gathering booking information in their chatbot, especially when guests provide information in an unstructured way."
+Reddit,"damn im trying to build an AI agent with n8n with no experience, to answers instagram dms for a small store that i have, but this looks really hard.",Struggle / Confusion,The user finds it difficult to build an AI agent with n8n for answering Instagram DMs due to lack of experience.
+Reddit,This is impressive. But I'm surprised how much code blocks there are - couldn't the agent handle that with the right prompting?,Negative Feedback,"Surprised by the amount of code blocks in n8n workflows, suggesting it could be improved with better prompting capabilities."
+Reddit,"It takes between 20 to 45 seconds depending on which path the message takes through the workflow. The longest response time comes from the booking agent path since it needs to make 4 different API calls, including the quoting API which alone takes about 10 seconds. I initially had Mem0Tool for memory management, but it was adding significant overhead, so I'm considering removing it since the PostgreSQL storage works well enough.
+
+Response times occasionally exceeded a minute initially. I managed to dramatically improve this by hosting Supabase locally - some vector queries that were inexplicably slow are now lightning fast. In the end I don’t need it to answer too fast, it wouldn’t feel natural anyway. 
+
+The main bottlenecks I had to solve were:
+
+
+1. Message batching: Rather than implementing an artificial delay, I leverage the natural processing time (20+ seconds) to my advantage. Just before sending a response, the system checks if any new messages arrived during processing. This prevents duplicate responses when users send multiple consecutive messages without adding extra wait time.
+
+2. Accurate data extraction: Getting reliable booking information (number of adults/children, precise check-in/checkout dates) was challenging. I had to use a specialized extraction agent with careful prompt engineering.
+
+3. Date format interpretation: One surprising challenge was getting the LLM to consistently understand availability dates. Simply feeding ISO dates (yyyy-MM-dd to yyyy-MM-dd) produced inconsistent results. I had to find a more robust format with explicit natural language explanations of each date range. This would probably be less of an issue with a reasoning model, but GPT-4o struggles with it.
+
+4. Context management: n8n's built-in memory nodes proved inadequate for a complex multi-agent system. They created a mess of message attribution - human messages would get processed by one agent, then fed to the next AI node which would incorrectly flag them as AI messages (and vice versa). This created duplicate entries and conversation history chaos. I solved this by implementing my own PostgreSQL-based chat history system with proper chronological ordering. This gives each agent a clean, accurate view of the conversation history without any attribution problems.​​​​​​​​​​​​​​​​",Struggle / Confusion,"Challenges with response times, message batching, accurate data extraction, date format interpretation, and context management in the n8n system."
+Reddit,I used to use pre-determined flow inside Sendpulse but doing it in n8n is easier and more flexible so I don't use their chatbot flow builder anymore. I just use it to get an entry point to Messenger and IG API.  Only thing missing in SendPulse is typing Indicators...,Feature Request,Lacks typing indicators in the SendPulse integration for n8n.
+Reddit,"i hear that, i have about 40 hours with chatgpt making work flows for n8n and also software liek Stable Diffusion and comfyui and start to get somewhere and then loads of problems, dead nodes and unable to download files etc. So glad you stuck with it",Struggle / Confusion,Experiencing issues with dead nodes and difficulties in downloading files while building workflows in n8n.
+Reddit,I think you have at least one prompt-injection issue here. I would recommend not to embed anything into the prompt unless you trust the source.,Bug Report,There may be a prompt-injection issue with the chatbot system.
+Reddit,"So if I want to hook up something like Puppeteer to my own MCP server, I’d need to install the repo on my VPS first, right? I initially thought connecting it would be as simple as just filling in the form/fields in n8n — didn’t realize I still had to install and run the repo separately on the VPS.",Struggle / Confusion,"User is confused about the requirement to install and run the repository on their VPS separately, rather than being able to connect it directly through the n8n interface."
+Reddit,"Yep. The reason you have to install the repo manually on your VPS is because the Mem0 MCP server doesn’t support npx yet.
+
+With some other MCPs, you can just run them with a single npx command. But Mem0’s hasn’t been pushed to npm, so there’s no shortcut. You’ve gotta clone the repo and run it yourself on a server or VPS.
+
+Kinda annoying, but once it’s up, it works fine.",Negative Feedback,The necessity to manually install the repo on their VPS is annoying due to lack of support for npx with Mem0 MCP server.
+Reddit,"It is not about being scared it is the fact I have 8 years of B2B marketing and sales using various forms of digital marketing and learning how to use AI workflows are apart of that.
+
+Consulting is a billion dollar business. I personally don't want to help others who aren't either in my culture or know me personally. If I gave all my knowledge out of the trials and tribulations that I had to go to for free on the internet for others, that takes away from the hard work I put in to live the life that I am now.
+
+I am willing to pay people to learn more about how to implement n8n into my business if it can benefit my own end while other real multi million dollar companies reach out to me for my expertise of not only Marketing but international business in general. 
+
+I honestly had no clue that there were full lead generation bots. I only implement ai workflows in certain aspects but if there is a YouTube lead generation bot that actually works that fully automates lead generation in a way that I would want it to, then that is more information for me that I would have paid to learn.",Feature Request,Looking for information on implementing n8n into their business and the possibility of a YouTube lead generation bot that fully automates lead generation.
+Reddit,"Hey men thanks for sharing, would be nice if you find sometime and make 3x YT video for different setup tiers form basic to full blown enterprise level just to share your experience, I’m sure that’d help a lot of folks here! Anyways great stuff!",Feature Request,Request for video tutorials for different n8n setup tiers from basic to enterprise level.
+Reddit,"Great guide! One thing you missed: there's a $25/month cost for Supabase unless you're on the free plan, which seems unlikely given the traffic you're handling. 
+
+Also, I wouldn't recommend using DigitalOcean Droplets as they're quite pricey. Hetzner offers much better value, both for cloud instances and dedicated servers.",Negative Feedback,"The cost for Supabase is not mentioned and is a factor to consider. Additionally, DigitalOcean Droplets are seen as expensive compared to alternatives like Hetzner."
+Reddit,"This is silly not everyone needs it for data in a database. There's more ways to use it than that. Also 400k execution a month, I expect a better website not something that looks like that.",Negative Feedback,"The n8n website design is lacking, especially considering the high execution volume."
+Reddit,"If my quick math is correct, this is roughly 9 executions per minute - not exactly real-time or anything extravagant. A typical process (outside of n8n) can do 1000s of executions per second.
+
+It should be able to scale this load on a Raspberry Pi Zero easily. The whole compute will cost you couple of dollars upfront.",Negative Feedback,"n8n's execution performance is significantly slower compared to typical processes outside of n8n, with concerns about its scaling capabilities."
+Reddit,"That assumes that all of your executions are done within seconds. Some of our executions take 30 minutes due to the bulk of data they are handling. 
+
+That said, you can absolutely run n8n on a raspberry pie. But I think that is a slightly larger learning curve than what is needed, and probably not a good way to go for enterprise.",Struggle / Confusion,"Concerns about execution times for workflows, particularly for long-running processes taking 30 minutes due to the amount of data handled."
+Reddit,"You’re right, 9 executions per minute doesn’t sound wild until you understand what each execution is doing.
+
+We’re running 400,000 executions a month, averaging 25 steps each, that’s 10 million+ operations, including API calls, data processing, branching logic, batching, error handling, etc.
+
+And for context:
+
+• Zapier: ~$16,000/month for 10M tasks
+
+• Make.com: ~$8,000/month for 10M operations
+
+• n8n: ~$30/month self-hosted
+
+The point isn’t just the volume. it’s what you’re getting per dollar. n8n handles complex, real-world workflows at scale without breaking the bank.",Positive Feedback,"n8n handles complex, real-world workflows at scale effectively and cost-efficiently compared to competitors."
+Reddit,I thought queue mode was gated behind an enterprise license. Can you do it in self-hosted? What does your docker compose look like? I'd be interested to see the complete setup for queue.,Struggle / Confusion,Uncertainty about whether queue mode is available in self-hosted setups and seeking clarification on using it in their own installation.
+Reddit,Okay. I guess I got confused. I know there's some scaling stuff that's included in enterprise and some that's not.,Struggle / Confusion,Confusion about what's included in the enterprise plan regarding scaling features.
+Reddit,On n8n cloud it is limited to enterprise,Feature Request,"n8n cloud is limited to enterprise users, suggesting a need for more accessible options."
+Reddit,"I like this. It's a great start, but it can be improved and streamlined for both locally hosted and industrial applications at a cheaper price.",Feature Request,The workflow could be improved and streamlined for both locally hosted and industrial applications at a cheaper price.
+Reddit,"Hey, it sounds awesome, could you make it so it get videos or images anything works from Pinterest search result, then with the images or videos it'll create a final draft!!??",Feature Request,Request for the ability to get videos or images from Pinterest search results to create a final draft.
+Reddit,"This is equivalent to posting a tutorial on how to prolong torture, only damaging everyone else in the ecosystem but the guy making 3€ from it.",Negative Feedback,The user believes that the shared workflow is harmful to others in the ecosystem and is primarily beneficial to the creator.
+Reddit,"hey! good job. giving it a shot, its stuck on a loop on point 2, it continuously checks for failures, goes to true, loads for 5 mins, and repeats. any idea?",Bug Report,"The workflow is stuck on a loop at point 2, continuously checking for failures and reloading for 5 minutes."
+Reddit,"If it’s failing the check that means it’s not outputting a list of captions. Did you adjust the prompt in the first request? The original instructed the AI to output a list, using a separator to define the list items. The node after then creates a list based on that separator. If it doesn’t output a list of items > 1, then it will fail and try again",Struggle / Confusion,"The workflow is failing to output a list of captions, and the user is unsure about how to adjust the prompt for the AI to ensure it outputs a list correctly."
+Reddit,"it outputs the captions, and i can see them on google drive, the issue comes about in the image generation section, its telling me that the 3rd caption is not good enough, even though its the exact same length.. any ideas?",Struggle / Confusion,"The image generation section is rejecting the 3rd caption as not good enough, despite it being the same length as others."
+Reddit,can you give us this template?,Feature Request,Request for the template of the AI-powered short-form video generator workflow.
+Reddit,"You mentioned Redis and PostgreSQL “corrupted” memory. This likely happened because:
+	•	Multiple agents are writing to the same keys
+	•	No unique session/thread management per user per agent
+	•	LLMs misinterpret shared memory or overwrite critical parts
+
+ Fix: Use structured memory per agent with scoped TTL (e.g. memory:intent:user123:msgID). Avoid “shared brain” memory unless it’s tightly controlled with a broker.
+
+
+Using JavaScript everywhere is powerful but can lead to hard-to-maintain workflows. Especially in n8n, this might turn into a spaghetti of code nodes.
+So avoid JS for, Basic routing (use Switch) and Logging (use separate logger flow)",Struggle / Confusion,"Concerns about memory management and maintainability when using JavaScript in n8n workflows, leading to potential complexity."
+Reddit,"Might sound stupid, but for most of that, writing simple Python code won’t solve the problems? 
+
+Where is the real advantage of having n8n here considering that much development time ? 
+
+I’m just curious since I want to get started into n8n but I’m trying to see where it could outperform the old approaches",Struggle / Confusion,Uncertainty about the advantages of using n8n over traditional coding methods for specific tasks.
+Reddit,"'Updating an appointment can take up to 40 seconds sometimes.'
+
+Does not seems like a right direction. What is the internal cost of single run of the pipeline?  
+Great work otherwise, just feels strange that such a simple task takes that long.",Negative Feedback,"Updating an appointment can take up to 40 seconds, which feels inefficient for such a simple task."
+Reddit,"Nice work you been done!
+
+I have question about (and i was thinking a lot before making this kind of automations) how do you handle when you have a lot of customers? i mean, you create a separate VPS and n8n instance? or you get it all in one VPS? 
+
+the reason im asking this is because about Credentials, Oauth problem, I was searching about how to solve this to start offer this kind of products in latam, knowing about a lot of small bussines cant afford paying a 150 usd per month or more. 
+
+So could you share us the experience of how do you handle multiple clients with this product? because there are a lot of ads, videos showing that is amazing and bla bla, but when you go to the reality is too different.
+
+grettings from mexico!",Struggle / Confusion,"Uncertainty on how to handle multiple customers with n8n, specifically regarding VPS setup and managing credentials or OAuth problems."
+Reddit,"You used quite a few technologies, even wrote some javascript. May I ask why use n8n for this project at all? What benefit did it give as opposed to using javascript for logic and api integration?",Struggle / Confusion,Uncertainty about the benefits of using n8n compared to directly using JavaScript for logic and API integration.
+Reddit,"Super, now next please do an AI bot for a jewellery brand that runs both whatsapp and Gmail.",Feature Request,Request for an AI bot that can run for a jewellery brand using both WhatsApp and Gmail.
+Reddit,"Thank you for sharing your experience.
+I would suggest checking Redlock, or any lock mechanism, to avoid corruption, prevent duplicates and reduce those 40s spent checking availability multiple times per execution.",Feature Request,"Suggestion to implement a lock mechanism to avoid corruption, prevent duplicates, and reduce execution time checking availability."
+Reddit,Can it connect to a booking system? Reminders?,Feature Request,Request for the ability to connect n8n to a booking system and implement reminders.
+Reddit,"Incredible.
+
+Would love to see this integrated with a scheduling system like Acuity - then you could market it to any/all of their existing customers 👀",Feature Request,Requesting integration of n8n with a scheduling system like Acuity.
+Reddit,"I dont think its stupid at all. I was thinking to use nextjs in this case but claude & gemini both convinced that maybe it could be easier in n8n
+
+the advantage is that n8n is drag and drop",Positive Feedback,"The drag and drop feature of n8n is seen as an advantage, suggesting ease of use in building workflows."
+Reddit,Yeah that is a problem. I only have one client. If i am correct each client must setup their own n8n instance? Also railway isnt the best solution for this so in this case digital ocean might be a solution,Struggle / Confusion,Uncertainty about whether each client must set up their own n8n instance.
+Reddit,"That is a valid problem. In this case its best to instruct intent agent if the message belongs to 2 different agents it can do like this.
+
+""I see you mentioned both canceling and booking. Which would you like to do first?""
+
+You could have IF node for this. 
+
+
+
+Now obviously the problem would be if the user says ""both"". Or instead of that message above it could say:
+
+""""I'll help you cancel your 3pm appointment and book a new one for 5pm tomorrow. Let me start with the cancellation first, then we'll book the new appointment. Sound good?""
+
+This could get more complex but yeah.",Feature Request,Request to improve the intent handling for messages that involve multiple actions (like canceling and booking) to clarify user intent.
+Reddit,"Nextjs is not suitable for this, a fastapi server on the other hand would've been infinietly more configurable. You think n8n is easier but try modifying it and you'll see how gruelling it becomes. It's like trying to draw with predefined shapes instead of using a pencil",Negative Feedback,"Modifying n8n is difficult and limiting, as it feels like working with predefined shapes instead of offering more flexibility."
+Reddit,"yeah this is possible. However selling on whatsapp and automating that on n8n isnt a good idea. Because it's way too complicated and it's hard to debug. However it's easy to do it with n8n + Nextjs as a backend. In fact I already built a system for that but now I am building for 4k products.
+
+how much products does your e-commerce has?",Negative Feedback,Automating WhatsApp sales using n8n is complicated and hard to debug.
+Reddit,"Woah. This is exactly what I need. Not for business but for a personal use case - helping find homes for foster animals by reaching out to fosters and rescues. This tool would help that in a huge way. I'm totally new to N8N but am not technically adept. I'm going to look into this in more detail on my laptop, download, and I may have some questions for you. 👌💯",Struggle / Confusion,"The user is totally new to n8n and is not technically adept, indicating they may need help understanding how to use the tool effectively."
+Reddit,"After seeing all the content you created, I feel a bit sad I only tipped 10$, when i have this thing fully in production and i'll tip more. 
+
+btw. when setting up the phantom buster connection, you refer to a google doc, which is never mentioned in the documentation if im correct. Is that a loose end or something we should setup ourselves?",Struggle / Confusion,"The documentation does not mention a Google Doc related to setting up the phantom buster connection, causing confusion about whether it's a loose end or something users need to set up themselves."
+Reddit,"Hey u/Lightwheel  \- this is AMAZING! Thank You!   
+  
+I've setup and configured everything but it just gets stuck on creating the airtable record. It says the node is executed successfully though. The Chat will give me all the output though. Just doesn't actually activate the record creation on Airtable though?
+
+https://preview.redd.it/ed5yt09zklxe1.png?width=2252&format=png&auto=webp&s=2f03aa6f90efed6648a99b9da2e959ffe8c82414",Struggle / Confusion,"The n8n workflow gets stuck on creating the Airtable record, despite the node indicating it executed successfully."
+Reddit,I'm a Chef in a Resort Kitchen. What exactly is this automating? And how do I harness this technological advancement? I am new here.,Struggle / Confusion,"The user is confused about what the n8n automation does and how they can utilize it, as they are new to the platform."
+Reddit,"Do the various models that you had selected (and likely deemed ideal balance of cost and performance) ""stick"" when importing the workflow?   
+  
+i.e.- OpenAI Chat Model1 == gpt-4o-mini
+
+i.e.- Google Gemini Chat Model7 == gemini-2.5-pro-exp-03-25  
+  
+I don't know enough about each of them specifically to know whether it will eat up all my credits.
+
+This is HUGE for my learning n8n! Thank you so much.",Struggle / Confusion,Uncertainty about whether selected models for importing workflows in n8n retain their settings and the potential impact on usage credits.
+Reddit,"All, I'm stumped.  I'm getting an Airtable error that the fields are expecting an array.  Any advice would be greatly appreciated.  I have not modified anything.
+
+{ ""message"": ""Invalid input for 'location' \[item 0\]"", ""timestamp"": 1745356253136, ""name"": ""ExpressionError"", ""description"": ""'location' expects a array but we got 'Florida'"", ""context"": { ""nodeCause"": ""create-airtable-record"" } }",Struggle / Confusion,Encountering an Airtable error indicating that the 'location' field expects an array but received a single value instead.
+Reddit,I thought n8n doesnt work with linkedIn?,Struggle / Confusion,Confusion about the compatibility of n8n with LinkedIn.
+Reddit,"Heyy, please change the field type in airtable to long text(except the created time field) 
+that will fix the problem",Bug Report,The field type in Airtable needs to be changed to long text (except the created time field) to fix a problem.
+Reddit,"Amazing analysis!
+Congrats
+
+Just one thing. I didn't see in the fixed cost the email package (max 30 emails for each domains recommended)",Negative Feedback,"The fixed cost analysis does not include the email package for sending emails, which is important to consider."
+Reddit,"I tried that, but I'm still getting this error:  { ""message"": ""Invalid input for 'location' \[item 0\]"", ""timestamp"": 1746651280729, ""name"": ""ExpressionError"", ""description"": ""'location' expects a array but we got 'Florida'"", ""context"": { ""nodeCause"": ""create-airtable-record"" } }",Bug Report,Encountering an 'Invalid input for 'location'' error due to the input type mismatch while trying to create an Airtable record.
+Reddit,Wow another clone of n8n’s own marketplace that already was fine.,Negative Feedback,"The user perceives the new site as just another clone of n8n’s existing marketplace, implying that it lacks originality or value."
+Reddit,Any chance you can switch to dark theme?,Feature Request,Request to implement a dark theme option.
+Reddit,"I like this and have used it a few times. For me, it's much easier to find what I'm looking for, and each workflow description provides much more info than n8n's own site. Nice work, and thanks.",Positive Feedback,
+Reddit,"what's wrong with the collection of the templates on the n8n website under the category ""templates""?",Struggle / Confusion,Uncertainty about the quality or comprehensiveness of the templates available on the n8n website compared to the curated collection.
+Reddit,Great but need some kind of visual way or descriptions in succint way to see what it does and what's the outcome.,Feature Request,A need for a visual representation or succinct descriptions of what each n8n automation template does and its outcomes.
+Reddit,"Where is the information about the original authors per workflow? I appreciate their hard work, but I don't see them marked separately. Am I missing something?",Struggle / Confusion,Uncertainty about whether the original authors of the workflows are credited separately in the repository.
+Reddit,"Speaking at someone who works at SaaS companies and is involved with contract stuff, this is typical IN CONCEPT. Almost every service has some language to this effect that your data may be used to improve their platform. Now the language differs and some are more specific as to what sort of data and what sort of usage.
+
+But here's a way to think about it: Say you upload a CSV file to n8n and doesn't process properly. Without this language they basically cannot debug it unless you file a bug, send the the document, and say ""please fix"". With this language they can take your document, figure out exactly what the issue is, patch the code, toss your document and move on with their lives. It also allows them to do this like aggregating data about your workflows and other workflows to figure out whats popular, what's not, whats working, what isn't.
+
+And to be clear, I'd wager that n8n doesn't care about ""your data"" being your files and shit. They care about your workflows. If you build some cool workflow, they want rights to be able to show that off, demo it, learn from it, use it as marketing material, etc. 
+
+At the end of the day, you need to trust your SaaS provider with your data. Regardless of what their contract says, they've got your data. So they can tell you they are using it ""legally"", or they can just use it. You have basically no way of knowing if they are abusing your data or not. If you do not trust the SaaS Vendor, don't give them any data.
+
+In n8n's case, you can self-host. However, unless you lock it down completely (and/or have audited every single line of code) you still cannot be sure it's not sending data of yours off to the mothership. So there is still some level of trust required.",Negative Feedback,Concerns about data privacy and the trustworthiness of n8n's data handling practices.
+Reddit,Wait a minute if I have a n8n automation that pulls data from public APIs and save it in S3 than they also have that data is that what it’s meant or only execution logs and so on,Struggle / Confusion,Confusion about data privacy and what data is stored by n8n when using automations with public APIs and S3.
+Reddit,"But here it's says that n8n don't manage the data, or I'm wrong?
+
+""Self-hosted n8n
+
+For self-hosted versions, n8n is neither a Controller nor a Processor, as we don't manage your data""
+
+[https://docs.n8n.io/privacy-security/privacy/](https://docs.n8n.io/privacy-security/privacy/)",Struggle / Confusion,Confusion about n8n's role in managing data in self-hosted versions.
+Reddit,Iam a beginner to n8n. Do we need to buy api key to learn how to use n8n?,Struggle / Confusion,Uncertainty about whether an API key is needed to learn how to use n8n.
+Reddit,"Just open the network analysis in your browser, there will be a lot of *.n8n.io requests (even in self hosted). Blocked the domain including all subdomains via pihole. Don't know if that's enough, but better than nothing.
+
+Maybe the backend also sends requests, to other domains.",Bug Report,"Uncertainty about whether the n8n backend sends requests to other domains, raising concerns about data privacy."
