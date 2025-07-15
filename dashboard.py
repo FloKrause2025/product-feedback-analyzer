@@ -29,9 +29,22 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# --- Header with Logo ---
+# Create two columns for the logo and the title
+logo_col, title_col = st.columns([1, 4])
 
-# --- App Title ---
-st.title("Product Feedback Analysis Dashboard")
+with logo_col:
+    # MODIFIED: Changed to use your local logo file
+    LOGO_IMAGE_FILE = "upshiftmedia_white_logo.png"
+    if os.path.exists(LOGO_IMAGE_FILE):
+        st.image(LOGO_IMAGE_FILE, width=300)
+    else:
+        st.write("Logo not found")
+
+
+with title_col:
+    st.title("Product Feedback Analysis Dashboard")
+
 
 # --- Load Data and Summaries ---
 csv_file_path = 'final_comprehensive_report.csv'
@@ -125,8 +138,7 @@ if os.path.exists(csv_file_path):
             st.subheader(f"Top {category_name}")
             category_df = df[df['category'] == category_name]
             if not category_df.empty:
-                # MODIFIED: Changed back to st.info to get the blue background, 
-                # but kept enumerate to ensure correct 1, 2, 3 numbering.
+                # Use st.info to get the blue background and enumerate for correct numbering
                 for i, row in enumerate(category_df.head(3).itertuples()):
                     st.info(f"{i+1}. {row.user_problem}")
             else:
