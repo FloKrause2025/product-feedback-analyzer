@@ -29,21 +29,27 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --- Header with Logo ---
-# Create two columns for the logo and the title
-logo_col, title_col = st.columns([1, 4])
 
-with logo_col:
-    # MODIFIED: Changed to use your local logo file
-    LOGO_IMAGE_FILE = "upshiftmedia_white_logo.png"
-    if os.path.exists(LOGO_IMAGE_FILE):
-        st.image(LOGO_IMAGE_FILE, width=300)
-    else:
-        st.write("Logo not found")
-
+# --- Header with Right-Aligned Logo ---
+# Create two columns for the title and the logo section
+title_col, logo_col = st.columns([3, 2])
 
 with title_col:
     st.title("Product Feedback Analysis Dashboard")
+
+with logo_col:
+    # MODIFIED: Use sub-columns with vertical alignment for a cleaner look
+    text_sub_col, image_sub_col = st.columns([2, 1], vertical_alignment="center")
+    with text_sub_col:
+        # Use markdown with HTML to style and align the text, removed margin-top
+        st.markdown("<p style='text-align: right; color: #FFFFFF;'>This report is powered by</p>", unsafe_allow_html=True)
+    with image_sub_col:
+        # Display your local logo file
+        LOGO_IMAGE_FILE = "UpShift Media White.png"
+        if os.path.exists(LOGO_IMAGE_FILE):
+            st.image(LOGO_IMAGE_FILE, width=150)
+        else:
+            st.write(" ") # Leave space if logo not found
 
 
 # --- Load Data and Summaries ---
